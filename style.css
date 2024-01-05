@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  background-color: #91b3c4;
+  align-items: center;
+  gap: 50px;
+  padding: 50px;
+}
+.container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  min-height: 45vh;
+  width: 90vh;
+}
+.about {
+  /* width: 90%; */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.2rem;
+  padding: 2.3rem 2rem;
+  border: 1px solid lightgray;
+  background-color: #fff;
+  /* background-image: url(/bg-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; */
+  /* height: 45vh; */
+  border-radius: 0.75rem;
+}
+
+.content__box {
+  display: flex;
+  flex-direction: column;
+}
+.content__box h1 {
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid grey;
+}
+.content__box h4 {
+  font-size: 20px;
+  padding: 10px 0px;
+}
+.content__box p {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+.content__box h6 {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+.content__box ul li {
+  font-size: 14px;
+  list-style: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.content__box ul li:hover {
+  text-decoration: none;
+}
+.content__box ul {
+  line-height: 1.2rem;
+}
+.content__box .api__link {
+  padding-top: 10px;
+}
+.content__box .api__link h6 {
+  /* padding-top: 10px; */
+  font-size: 16px;
+  font-weight: 700;
+}
+.content__box .api__link h6 a {
+  text-decoration: none;
+}
+.content__box .api__link h6 a:hover {
+  text-decoration: underline;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+form {
+  margin: 2rem 0 2rem 0;
+}
+form select,
+button,
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.75rem;
+}
+form select {
+  cursor: pointer;
+}
+form input {
+  border: 1px solid lightgrey;
+  font-size: 1.2rem;
+  height: 3rem;
+  padding-left: 1rem;
+}
+.enter__code {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+.enter__code i {
+  margin-top: 1.4rem;
+  font-size: 2rem;
+}
+.select__from img {
+  max-width: 2.5rem;
+}
+.select__from {
+  display: flex;
+  width: 7rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 1px solid lightgrey;
+}
+.select__from select {
+  font-size: 1rem;
+  width: auto;
+}
+.excahnge__msg {
+  margin: 2rem 0;
+  font-weight: 900;
+  color: green;
+}
+form button {
+  height: 3rem;
+  background-color: #700999;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.update__date p {
+  text-align: end;
+  font-size: 10px;
+}
